@@ -14,7 +14,7 @@ const MainCrosel = () => {
                 items={items}
                 disableButtonsControls
                 autoPlay
-                autoPlayInterval={9000}
+                autoPlayInterval={7000}
                 infinite
             />
         </div>
