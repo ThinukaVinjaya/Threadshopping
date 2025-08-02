@@ -6,7 +6,7 @@ import { mainCarouselData } from './MainCaroselData';
 
 const MainCrosel = () => {
 
-    const items = mainCarouselData.map((item) => <img className='cursor-pointer' role='presentation' src={item.image} alt='' />)
+    const items = mainCarouselData.map((item) => <img className='cursor-pointer -z-10' role='presentation' src={item.image} alt='' />)
 
     return (
         <div style={{ width: '100vw', overflow: 'hidden' }}>
