@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage/HomePage'
 import Footer from './components/Footer/Footer'
 import Product from './components/Product/Product'
 import Navigation from './components/navigation/Navigation.jsx'
+import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Navigation/>
       <div>
         {/*<HomePage />*/}
-        <Product/>
+        {/*<Product/>*/}
+        <ProductDetails/>
       </div>
       <Footer />
     </div>
