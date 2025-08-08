@@ -8,6 +8,8 @@ import Footer from './components/Footer/Footer'
 import Product from './components/Product/Product'
 import Navigation from './components/navigation/Navigation.jsx'
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
+import Cart from './components/Cart/Cart.jsx'
+import Checkout from './components/Checkout/Checkout.jsx'
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
       <div>
         {/*<HomePage />*/}
         {/*<Product/>*/}
-        <ProductDetails/>
+        {/*<ProductDetails/>*/}
+      {/*<Cart/>*/}
+        <Checkout/>
       </div>
       <Footer />
     </div>
