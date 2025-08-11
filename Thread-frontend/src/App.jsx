@@ -10,6 +10,10 @@ import Navigation from './components/navigation/Navigation.jsx'
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
 import Cart from './components/Cart/Cart.jsx'
 import Checkout from './components/Checkout/Checkout.jsx'
+import Order from './components/Order/Order.jsx'
+import OrderDetails from './components/Order/OrderDetails.jsx'
+import { Route, Routes } from 'react-router-dom'
+import CustomerRouters from './Routers/CustomerRouters.jsx'
 
 
 function App() {
@@ -17,15 +21,12 @@ function App() {
 
   return (
     <div className="App">
-      <Navigation/>
-      <div>
-        {/*<HomePage />*/}
-        {/*<Product/>*/}
-        {/*<ProductDetails/>*/}
-      {/*<Cart/>*/}
-        <Checkout/>
-      </div>
-      <Footer />
+      
+      <Routes>
+        <Route path='/*' element={<CustomerRouters/>}></Route>
+      </Routes>
+    
+      
     </div>
   )
 }
